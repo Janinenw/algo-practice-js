@@ -4,10 +4,35 @@
 // F(n) = F(n - 1) + F(n - 2), for n > 1.
 // Given n, calculate F(n).
 
+// const fibonacci = num => {
+//     if (num === 0) return 0;
+//     if (num === 1) return 1;
+//     return fibonacci(num - 1) + fibonacci(num - 2);
+// }
+
+// console.log(fibonacci(7));
+
+// simplify to
+
+
+
+
 const fibonacci = num => {
-    if (num === 0) return 0;
-    if (num === 1) return 1;
+    if (num < 2) return num;
     return fibonacci(num - 1) + fibonacci(num - 2);
 }
-
 console.log(fibonacci(7));
+
+//DECLARATION OF FUNCTION
+// const fibonacci = num => 
+
+//BASE CASES
+
+//   if (num === 0) return 0;
+//     if (num === 1) return 1;
+
+//RECURSIVE CASE
+//     return fibonacci(num - 1) + fibonacci(num - 2);
+// }
+
+// console.log(fibonacci(7));
